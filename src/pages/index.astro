@@ -1,17 +1,152 @@
 ---
-
+import '../styles/global.css';
 ---
 
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Brickell Eight | Coming Soon</title>
+		<meta name="description" content="Brickell Eight — Only Eight. Designed for the Few. Exclusive collection of eight contemporary residences moments from Brickell." />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="topbar">
+			<div class="nav">
+				<div class="nav-logo">
+					<img src="/brickell-logo.jpg" alt="Brickell Eight Logo" />
+					<div class="nav-title">Brickell Eight • Coming Soon</div>
+				</div>
+				<div class="nav-links">
+					<a href="#residences">Residences</a>
+					<a href="#sales">Sales Team</a>
+					<a href="https://brickelleight.com" target="_blank" rel="noopener">brickelleight.com</a>
+				</div>
+			</div>
+		</div>
+
+		<main class="container">
+			<section class="hero">
+				<div class="panel hero-copy">
+					<div class="eyebrow">Now Previewing</div>
+					<h1>BRICKELL</h1>
+					<div class="subbrand">EIGHT</div>
+					<div class="tagline">Only Eight. Designed for the Few.</div>
+					<p class="lead">
+						An exclusive collection of eight contemporary residences moments from Brickell,
+						crafted for buyers who value privacy, modern design, and a boutique Miami lifestyle.
+					</p>
+
+					<div class="meta">
+						<div class="chip">8 Contemporary Residences</div>
+						<div class="chip">Minutes from Brickell</div>
+						<div class="chip">Exclusive Sales & Marketing</div>
+					</div>
+
+					<div class="cta">
+						<a class="button" href="#sales">Contact Sales Team</a>
+						<a class="button secondary" href="https://brickelleight.com" target="_blank" rel="noopener">Visit Website</a>
+					</div>
+
+					<div class="domain">brickelleight.com</div>
+				</div>
+
+				<div class="panel hero-media">
+					<img src="/hero-image.jpg" alt="Brickell Eight Building" />
+					<div class="media-card">
+						<h3>Boutique scale. Refined presence.</h3>
+						<p>
+							A rare opportunity to present a limited eight-residence offering with clean contemporary architecture,
+							private garage access, and a highly connected urban location.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="section" id="residences">
+				<div class="section-grid">
+					<div class="panel info-card">
+						<h2>A Distinctive New Address</h2>
+						<p>
+							Brickell Eight pairs intimate scale with modern lines and elevated livability.
+							The brand palette and presentation reflect understated luxury — warm neutrals,
+							soft stone textures, and metallic champagne tones that feel timeless and premium.
+						</p>
+						<p>
+							This coming soon page is styled directly from your supplied branding, flyer, logo,
+							and project imagery to create a more polished sales-first digital presence.
+						</p>
+
+						<div class="stats">
+							<div class="stat">
+								<strong>8</strong>
+								<span>Residences</span>
+							</div>
+							<div class="stat">
+								<strong>305</strong>
+								<span>Miami Access</span>
+							</div>
+							<div class="stat">
+								<strong>Now</strong>
+								<span>Private Inquiry</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="panel gallery">
+						<img src="/gallery-1.jpg" alt="Brickell Eight Interior" />
+						<img src="/gallery-2.jpg" alt="Brickell Eight View" />
+					</div>
+				</div>
+			</section>
+
+			<section class="sales" id="sales">
+				<div class="panel sales-card">
+					<div class="sales-top">
+						<div>
+							<h2>Exclusive Sales & Marketing</h2>
+							<p style="font-size:20px; line-height:1.6; margin:0 0 12px;">
+								Presented with the same elegant visual language as your printed collateral,
+								this page keeps the message simple, premium, and conversion-ready.
+							</p>
+							<p style="font-size:20px; line-height:1.6; margin:0;">
+								Reach out directly to schedule a private conversation, request availability,
+								or learn more about this exclusive collection.
+							</p>
+						</div>
+						<div class="sales-flyer">
+							<img src="/sales-flyer.jpg" alt="Brickell Eight Sales Flyer" />
+						</div>
+					</div>
+
+					<div class="brokers">
+						<div class="broker">
+							<div class="label">Exclusive Representative</div>
+							<h3>Sebastian Acosta</h3>
+							<a href="tel:+13052446222">305.244.6222</a>
+							<small>Luxury Property Consultant</small>
+						</div>
+
+						<div class="broker">
+							<div class="label">Exclusive Representative</div>
+							<h3>Rosi Borroto</h3>
+							<a href="tel:+13054908176">305.490.8176</a>
+							<small>Sales Associate</small>
+						</div>
+					</div>
+
+					<div class="brokerage">
+						Exclusive Sales & Marketing<br />
+						<strong>ONE Sotheby's International Realty</strong>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			Brickell Eight • Coming Soon • Luxury residences moments from Brickell
+		</footer>
 	</body>
 </html>
